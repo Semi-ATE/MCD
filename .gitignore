@@ -1,0 +1,111 @@
+###########################
+### backup shit         ###
+###########################
+*~
+*.bak
+~*
+
+output/mk20/sct8_mk20.tar.gz
+
+
+###########################
+### dtar stuff          ###
+###########################
+.dtar_*
+diff.tar
+dtar_rm.sh
+
+###########################
+### big files           ###
+###########################
+packages/docker/*.run
+packages/docker/*.tar.gz
+packages/docker/*.tgz
+packages/docker/*.bin
+
+###########################
+### build artifacts     ###
+###########################
+BUILD
+###########################
+### Windows shit        ###
+###########################
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+###########################
+### Altium shit         ###
+###########################
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+**/__Previews*
+**/History*
+#useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
+exports/*
+!exports/manual
+
+############################
+### Hyperlynx Simulation ###
+############################
+Project\ Logs
+Project Outputs for*
+History
+
+###########################
+### Python shit         ###
+###########################
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+
+###########################
+### C/C++ shit          ###
+###########################
+*.so
+
+###########################
+### Spyder shit         ###
+###########################
+.spyderproject
+.spyproject
